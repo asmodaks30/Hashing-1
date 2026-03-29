@@ -5,7 +5,7 @@ public:
     bool isIsomorphic(string s, string t) {
         if (s.length() != t.length()) {
             return false;
-        }
+        }  
 
         unordered_map<char, char> s_map;
         unordered_set<char> t_set;
